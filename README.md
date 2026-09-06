@@ -23,14 +23,14 @@ Features: 13 Attributes (employee_id, department, region, education, gender, rec
 1. Exploratory Visualizations: Outlier analysis conducted using Seaborn boxplots across continuous attributes (age, length_of_service, avg_training_score).
 2. Machine Learning Pipeline: Implemented a Scikit-Learn RandomForestClassifier pipeline utilizing StandardScaler for numeric values and OneHotEncoder for categorical factors.
 3. Top Drivers Identified:
--avg_training_score (Primary driver of KPI success)
--previous_year_rating
--length_of_service
+1. avg_training_score (Primary driver of KPI success)
+2. previous_year_rating
+3. length_of_service
 
 ## Power BI Dashboard Features
-Page 1 — Executive Overview: High-level overview displaying Total Headcount (17.4K), KPI Attainment Rate (35.88%), Average Training Score (63.18), and Award Distribution.
-Page 2 — Performance & Retention Matrix: Interactive heatmap mapping High Performer Density across Education vs Age Group.
-Page 3 — Department Benchmarking: Decomposition Tree breaking down high-performer concentration across organizational units.
+1. Page 1 — Executive Overview: High-level overview displaying Total Headcount (17.4K), KPI Attainment Rate (35.88%), Average Training Score (63.18), and Award Distribution.
+2. Page 2 — Performance & Retention Matrix: Interactive heatmap mapping High Performer Density across Education vs Age Group.
+3. Page 3 — Department Benchmarking: Decomposition Tree breaking down high-performer concentration across organizational units.
 
 ## Key Actionable Insights for HR
 1. Training Impact: Employees completing focused, high-scoring training modules demonstrate higher KPI attainment than those enrolled in repetitive low-scoring sessions.
